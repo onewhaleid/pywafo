@@ -25,7 +25,7 @@ from numpy.random import randn
 import scipy.interpolate as interpolate
 from scipy.linalg import toeplitz, lstsq
 from scipy import sparse
-from pylab import stineman_interp
+# from pylab import stineman_interp
 
 from ..containers import PlotData
 from ..misc import sub_dict_select, nextpow2  # , JITImport
