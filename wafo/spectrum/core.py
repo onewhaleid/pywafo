@@ -31,16 +31,16 @@ try:
     from wafo.gaussian import Rind
 except ImportError:
     Rind = None
-try:
-    from wafo import c_library
-except ImportError:
-    warnings.warn('Compile the c_library.pyd again!')
-    c_library = None
-try:
-    from wafo import cov2mod
-except ImportError:
-    warnings.warn('Compile the cov2mod.pyd again!')
-    cov2mod = None
+# try:
+#     from wafo import c_library
+# except ImportError:
+#     warnings.warn('Compile the c_library.pyd again!')
+#     c_library = None
+# try:
+#     from wafo import cov2mod
+# except ImportError:
+#     warnings.warn('Compile the cov2mod.pyd again!')
+#     cov2mod = None
 
 # Trick to avoid error due to circular import
 _WAFOCOV = JITImport('wafo.covariance')

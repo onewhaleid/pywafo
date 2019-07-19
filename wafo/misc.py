@@ -19,11 +19,11 @@ import warnings
 from time import strftime, gmtime
 from wafo.plotbackend import plotbackend as plt
 import numbers
-try:
-    from wafo import c_library as clib  # @UnresolvedImport
-except ImportError:
-    warnings.warn('c_library not found. Check its compilation.')
-    clib = None
+# try:
+#     from wafo import c_library as clib  # @UnresolvedImport
+# except ImportError:
+#     warnings.warn('c_library not found. Check its compilation.')
+#     clib = None
 FLOATINFO = np.finfo(float)
 _TINY = FLOATINFO.tiny
 _EPS = FLOATINFO.eps

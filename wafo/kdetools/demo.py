@@ -9,10 +9,10 @@ import numpy as np
 import warnings
 from wafo.plotbackend import plotbackend as plt
 from wafo.kdetools import Kernel, TKDE, KDE, KRegression, BKRegression
-try:
-    from wafo import fig
-except ImportError:
-    warnings.warn('fig import only supported on Windows')
+# try:
+#     from wafo import fig
+# except ImportError:
+#     warnings.warn('fig import only supported on Windows')
 
 __all__ = ['kde_demo1', 'kde_demo2', 'kde_demo3', 'kde_demo4', 'kde_demo5',
            'kreg_demo1', ]
