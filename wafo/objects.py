@@ -13,15 +13,15 @@
 
 
 from __future__ import absolute_import, division
-from wafo.transform.core import TrData
-from wafo.transform.estimation import TransformEstimator
-from wafo.stats import distributions
+# from wafo.transform.core import TrData
+# from wafo.transform.estimation import TransformEstimator
+# from wafo.stats import distributions
 from wafo.misc import (nextpow2, findtp, findrfc, findtc, findcross,
                        ecross, JITImport, DotDict, gravity, findrfc_astm,
                        detrendma)
-from wafo.interpolate import stineman_interp
+# from wafo.interpolate import stineman_interp
 from wafo.containers import PlotData
-from wafo.plotbackend import plotbackend as plt
+# from wafo.plotbackend import plotbackend as plt
 from scipy.integrate import trapz
 from scipy.signal import welch, lfilter
 from scipy.signal.windows import get_window  # @UnusedImport
