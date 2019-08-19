@@ -1,1 +1,0 @@
-collect_ignore = ["setup.py", "build_all.py"]
